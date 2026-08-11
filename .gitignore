@@ -1,0 +1,15 @@
+*.sw?
+
+# Dependencies
+node_modules/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Backend environment
+backend/.env
+
+# Build files
+dist/
